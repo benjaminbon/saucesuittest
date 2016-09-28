@@ -32,7 +32,7 @@ gulp.task('e2e', ['http', 'selenium'], () => {
         });
 });
 
-gulp.task('test', ['e2e'], () => {
+gulp.task('test_o', ['e2e'], () => {
     httpServer.close();
     seleniumServer.kill();
 });
