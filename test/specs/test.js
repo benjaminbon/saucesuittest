@@ -10,7 +10,7 @@ describe('my awesome website', function() {
             .setValue('input[name="password"]', '12341234')
             .click('.btn-primary')
             .screenshot();
-        browser.getUrl().should.be.equal('Bond Black')
+        browser.getUrl().should.be.equal('Bond Black');
 
     });
 });
